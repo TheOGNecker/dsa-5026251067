@@ -8,12 +8,13 @@ public class ColourPrint extends PrintJob {
         @Override
         public int calculateCharge(){
                 int temp = super.getPages();
-                int total = 0;
-                total = temp * 1500;
+                
                 if (temp > 10){
-                        total += (temp - 10) * 1000;
+                        return 15000 + (temp - 10) * 1000 + 2000;
                 }
-                return total + 2000;
+                else{
+                        return temp * 1500 + 2000;
+                }
         }
 
         //dont change
