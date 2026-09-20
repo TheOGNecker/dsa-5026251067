@@ -1,5 +1,5 @@
 public class ColourPrint extends PrintJob {
-        public ColourPrint (String id, int pages){
+        protected ColourPrint (String id, int pages){
             super(id, pages);
         }
 

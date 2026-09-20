@@ -1,4 +1,4 @@
 public interface Chargeable {
-        public abstract int calculateCharge(int units);
+        public abstract int calculateCharge();
 }
         
