@@ -1,12 +1,10 @@
-package lw01.prelab;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
         public static void main(String[] args) {
-                Scanner sc = new Scanner(Main.class.getResourceAsStream("/lw01/prelab/jobs.txt"));
+                Scanner sc = new Scanner(Main.class.getResourceAsStream("/jobs.txt"));
 
                 List<PrintJob> jobs = new ArrayList<>();
 
