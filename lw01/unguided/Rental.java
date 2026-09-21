@@ -30,6 +30,6 @@ public abstract class Rental implements Chargable {
         }
 
         public String summary(int units){
-                return id + " | " + label() + " | " + calculateCharge(units);
+                return id + " | " + label() + " | " + calculateCharge();
         }
 }
