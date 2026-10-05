@@ -1,3 +1,5 @@
+package lw02.prelab;
+
 import java.util.*;
 import java.util.Stack;
 

@@ -1,3 +1,5 @@
+package lw01.unguided;
+
 public abstract class Rental implements Chargable {
         private String id;
         private int days;
